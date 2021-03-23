@@ -3,6 +3,7 @@ $page = (isset($_GET['page']) && $_GET['page'] != '') ? $_GET['page'] : '';
 ?>
 <?php require_once("pages/header.php"); ?>
 <div id="main-contents">
+        <h1>Hello World!</h1>
         <?php
             switch($page){
                 case 'gallery':
